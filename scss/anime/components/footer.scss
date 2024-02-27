@@ -1,0 +1,41 @@
+@use "../variables.scss" as *;
+
+.anime-footer {
+    background: $exDark;
+    color: $white;
+    text-align: center;
+    padding: 2rem 0;
+
+    .social-links{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+
+        a{
+            border: 2px solid $white;
+            color: $white;
+            display: block;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            text-decoration: none;
+            margin: 0 0.3rem;
+            transition: all 0.5s ease;
+        }
+
+        a:hover{
+            background: $white;
+            color: $exDark;
+        }
+    }
+
+    span{
+        margin-top: 1rem;
+        display: block;
+        font-family: $Playfair;
+        letter-spacing: 2px;
+    }
+}
