@@ -8,4 +8,16 @@
     .navbarText {
         color: $white !important;
     }
+    #navbarDropdownMenuLink {
+        color: $white;
+    }
+    .dropdown-menu {
+        background-color: $black;
+        .dropdown-item {
+            color: $white;
+        }
+        .dropdown-item:hover {
+            background-color: $aquamarineHover;
+        }
+    }
 }

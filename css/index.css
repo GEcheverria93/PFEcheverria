@@ -286,6 +286,18 @@
 .navbarContainer .navbarText {
   color: #ffffff !important;
 }
+.navbarContainer #navbarDropdownMenuLink {
+  color: #ffffff;
+}
+.navbarContainer .dropdown-menu {
+  background-color: #030712;
+}
+.navbarContainer .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbarContainer .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(10, 216, 122, 0.7215686275);
+}
 
 .containerTitle {
   margin-bottom: 70px;
