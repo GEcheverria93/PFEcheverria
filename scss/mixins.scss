@@ -1,0 +1,27 @@
+@mixin social-links($hover-bg-color, $hover-text-color) {
+    .social-links {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+
+        a {
+            border: 2px solid #ffffff;
+            color: #ffffff;
+            display: block;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            text-decoration: none;
+            margin: 0 0.3rem;
+            transition: all 0.5s ease;
+
+            &:hover {
+                background: $hover-bg-color;
+                color: $hover-text-color;
+            }
+        }
+    }
+}
