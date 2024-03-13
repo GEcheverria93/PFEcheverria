@@ -1,0 +1,18 @@
+@use "../variables.scss" as *;
+@use "../../mixins.scss" as *;
+
+.lol-footer {
+    background: $exDark;
+    color: $white;
+    text-align: center;
+    padding: 2rem 0;
+
+@include social-links($white, $exDark);
+
+    span{
+        margin-top: 1rem;
+        display: block;
+        font-family: $Playfair;
+        letter-spacing: 2px;
+    }
+}
