@@ -1,0 +1,12 @@
+@use "../variables.scss" as*;
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .news-img img {
+        width: 500px;
+        max-width: 100%;
+    }
+}

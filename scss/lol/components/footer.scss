@@ -1,16 +1,13 @@
 @use "../variables.scss" as *;
 @use "../../mixins.scss" as *;
 
-.portfolio-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    background-color: $black;
+.lol-footer {
+    background: $exDark;
     color: $white;
     text-align: center;
     padding: 2rem 0;
 
-    @include social-links($white, $aquamarine);
+@include social-links($white, $exDark);
 
     span{
         margin-top: 1rem;
