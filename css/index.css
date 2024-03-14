@@ -447,7 +447,7 @@
 
 .lol-header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/anime/banner.webp) center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../images/lol/baner.jpeg) center/cover no-repeat fixed;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -522,10 +522,11 @@
 .recent-lol .recent-lol-content .recent-lol-item .recent-lol-img {
   position: relative;
   overflow: hidden;
-  height: 550px;
 }
 .recent-lol .recent-lol-content .recent-lol-item .recent-lol-img img {
   transition: all 0.5s ease;
+  height: 550px;
+  object-fit: cover;
 }
 .recent-lol .recent-lol-content .recent-lol-item .recent-lol-img span:first-of-type {
   position: absolute;

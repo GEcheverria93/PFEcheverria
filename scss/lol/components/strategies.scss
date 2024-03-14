@@ -13,10 +13,11 @@
             .recent-lol-img{
                 position: relative;
                 overflow: hidden;
-                height: 550px;
-
+                
                 img{
                     transition:  all 0.5s ease;
+                    height: 550px;
+                    object-fit: cover;
                 }
 
                 span:first-of-type{
