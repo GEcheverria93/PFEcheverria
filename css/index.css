@@ -747,4 +747,127 @@
   letter-spacing: 2px;
 }
 
+.portfolio-body {
+  background-color: #030712;
+  color: #ffffff;
+}
+.portfolio-body h2 {
+  text-align: center;
+}
+.portfolio-body .container {
+  padding: 120px 40px 0px;
+}
+
+.navbarContainer {
+  position: fixed;
+  width: 100%;
+  background-color: #030712;
+  border-color: #030712 !important;
+}
+.navbarContainer .navbarText {
+  color: #ffffff !important;
+}
+.navbarContainer #navbarDropdownMenuLink {
+  color: #ffffff;
+}
+.navbarContainer .dropdown-menu {
+  background-color: #030712;
+}
+.navbarContainer .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbarContainer .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(10, 216, 122, 0.7215686275);
+}
+
+.containerTitle {
+  margin-bottom: 70px;
+  font-family: monospace;
+}
+.containerTitle h2 {
+  font-size: 40px;
+}
+.containerTitle h2 span {
+  color: #0ad87a;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.news .news-img img {
+  width: 500px;
+  max-width: 100%;
+}
+
+.form-container {
+  margin: 100px 0;
+}
+@media screen and (max-width: 840px) {
+  .form-container {
+    margin: 30px 0;
+  }
+}
+.form-container .formcontact {
+  padding: 0 200px;
+}
+.form-container .formcontact .formButtom {
+  background-color: #0ad87a;
+  border-color: #0ad87a;
+  color: #030712;
+}
+.form-container .formcontact .textHelp {
+  color: #ffffff;
+}
+@media screen and (max-width: 840px) {
+  .form-container .formcontact {
+    padding: 0 120px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .form-container .formcontact {
+    padding: 0 60px;
+  }
+}
+
+.portfolio-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #030712;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.portfolio-footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.portfolio-footer .social-links a {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+.portfolio-footer .social-links a:hover {
+  background: #ffffff;
+  color: #0ad87a;
+}
+.portfolio-footer span {
+  margin-top: 1rem;
+  display: block;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+
 /*# sourceMappingURL=index.css.map */
