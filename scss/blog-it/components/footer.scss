@@ -1,0 +1,21 @@
+@use "../variables.scss" as *;
+@use "../../mixins.scss" as *;
+
+.blog-it-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    padding: 2rem 0;
+
+    @include social-links($white, $aquamarine);
+
+    span{
+        margin-top: 1rem;
+        display: block;
+        font-family: $Playfair;
+        letter-spacing: 2px;
+    }
+}
